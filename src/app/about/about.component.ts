@@ -13,7 +13,6 @@ export class AboutComponent {
     console.log('20');
     if ($event) {
       console.log($event.target);
-      console.log($event.target.value);
     }
   }
   showEmail($event: any) {
